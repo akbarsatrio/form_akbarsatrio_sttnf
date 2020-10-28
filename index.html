@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Pendaftaran</title>
+</head>
+<body>
+  <table border="0" width="540" align="center" cellspacing="0">
+  <form action="#" method="POST">
+  <tr>
+    <td colspan="12">
+      <header>
+        <h1>Form Pendaftaran</h1>
+        <hr>
+        <br/>
+      </header>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <fieldset>
+        <legend><strong>Informasi Personal</strong></legend>
+        <table border="0" width="100%">
+          <tr>
+            <td width="150">
+              <label for="nama">Nama</label>
+            </td>
+            <td>:</td>
+            <td>
+              <input type="text" autocomplete="off" required id="nama">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="ttl">Tanggal lahir</label>
+            </td>
+            <td>:</td>
+            <td><input type="date" autocomplete="off" required id="ttl"></td>
+          </tr>
+          <tr>
+            <td>
+              <label>Jenis Kelamin</label>
+            </td>
+            <td>:</td>
+            <td>
+              <input type="radio" autocomplete="off" name="jk" required id="lk" value="laki">
+              <label for="lk">Laki-laki</label><br/>
+              <input type="radio" autocomplete="off" name="jk" required id="pr" value="laki">
+              <label for="pr">Perempuan</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="agama">Agama</label>
+            </td>
+            <td>:</td>
+            <td>
+              <select name="agama" id="agama">
+                <option value="all">Pilih Agama</option>
+                <option value="islam">Islam</option>
+                <option value="protestan">Protestan</option>
+                <option value="katolik">Katolik</option>
+                <option value="hindu">Hindu</option>
+                <option value="budha">Budha</option>
+                <option value="konghucu">Konghucu</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <fieldset>
+        <legend><strong>Informasi Kontak</strong></legend>
+        <table border="0" width="100%">
+          <tr>
+            <td width="150">
+              <label for="alamat">Alamat</label>
+            </td>
+            <td>:</td>
+            <td>
+              <textarea name="alamat" id="alamat" rows="5"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="kota">Kota</label>
+            </td>
+            <td>:</td>
+            <td><input type="text" autocomplete="off" required id="kota"></td>
+          </tr>
+          <tr>
+            <td>
+              <label for="provinsi">Provinsi</label>
+            </td>
+            <td>:</td>
+            <td><input type="text" autocomplete="off" required id="provinsi"></td>
+          </tr>
+          <tr>
+            <td>
+              <label for="notel">No. Telp</label>
+            </td>
+            <td>:</td>
+            <td><input type="number" autocomplete="off" required id="notel"></td>
+          </tr>
+        </table>
+      </fieldset>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <button type="reset">Hapus</button>
+      <button type="submit">Submit</button>
+    </td>
+  </tr>
+  </form>
+  </table>
+</body>
+</html>
